@@ -40,7 +40,7 @@ h1 {
 }
 
 .aside{
-  min-width: 23%;
+  min-width: 300px;
  
 }
 
@@ -210,7 +210,7 @@ h1 {
 }
 
 .description_center{
-  width: 50%;
+  width: 45%;
   border-right: 1px dashed;
 }
 
@@ -233,7 +233,7 @@ p small{
 }
 
 .description_rigth_content{
-  width: 150px;
+  width: 120px;
   height: 40px;
   background-color: #002979;
   display: flex;
@@ -254,3 +254,84 @@ p small{
 .container_block{
   width: 100%;
 }
+
+.content_filter_main{
+  background-color: #ffffff;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_main_filters{
+  margin-right: 15px;
+}
+
+.main_sibtitle_filters{
+  font-size: 20px;
+  color: #1b84b9;
+  margin-left: 15px; 
+  font-weight: 900; 
+}
+
+
+@media screen and (max-width: 1400px){
+  .content_filter_main{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1020px){
+  .content_filter_main{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1010px){
+  .aside{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 1009px){
+  .container_block{
+    margin-right: 35px;
+  }
+  .content_filter_main{
+    display: flex;;
+  }
+}
+
+@media screen and (max-width: 768px){
+.main_sections{
+  display: table;
+}
+.hotel{
+  height: 285px;
+  width: 100%;
+}
+.description_center{
+  width: 100%;
+  border-bottom: 1px dashed;
+  padding-bottom: 22px;
+  border-right: none;
+}
+.description_rigth{
+  width: 100%;
+}
+.description_rigth_content{
+  width: 90%;
+}
+}
+
+@media screen and (max-width: 468px){
+
+}
+
+@media screen and (max-width: 320px){
+
+}
+
+
