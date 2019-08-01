@@ -253,6 +253,7 @@ p small{
 
 .container_block{
   width: 100%;
+  margin-right: 25px;
 }
 
 .content_filter_main{
